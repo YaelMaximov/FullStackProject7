@@ -1,0 +1,6 @@
+.add-product-form form:invalid button[type="submit"] {
+    /* Add your custom styles for the disabled button here */
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  

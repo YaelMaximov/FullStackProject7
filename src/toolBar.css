@@ -1,0 +1,76 @@
+.categories-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 10px;
+  overflow-x: auto;
+  gap: 10px; /* Add gap between the links */
+}
+
+.toolbar-button {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline from links */
+}
+
+.toolbar-button.active {
+  color: #00aaf2; /* Update to light blue color */
+}
+
+.cart-icon {
+  margin-left: auto;
+  display: flex; /* Add display flex to align dot vertically */
+  align-items: center; /* Add align-items to center dot vertically */
+}
+
+.cart-icon .toolbar-button {
+  position: relative;
+}
+
+/* .cart-icon .toolbar-button::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ff5722;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+} */
+
+.category-name {
+  margin-left: 5px;
+}
+
+.toggle-categories-button {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .toggle-categories-button{
+    display: block;
+  }
+}
+
+/* Show toggle button when screen width is less than 600px */
+@media (max-width: 1000px) {
+
+
+  .categories-container{
+    flex-direction: column;
+  }
+  
+}

@@ -1,0 +1,41 @@
+.product-price button,
+.product-quantity button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+button.product-button{
+    background: none;
+    border: none;
+  }
+  button.product-button i{
+    font-size: 18px;
+  }
+  .product {
+    /* ... Your existing styles ... */
+    position: relative;
+  }
+  
+  .delete-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: transparent;
+    border: none;
+    color:cornflowerblue;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .product-price input,
+  .product-quantity input{
+    width: 30%;
+    font-size: medium;
+  }
+  
+  .product-price div,
+  .product-quantity div{
+    display: flex;
+    justify-content: center;
+  }

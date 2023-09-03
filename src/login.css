@@ -1,0 +1,107 @@
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 400px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .signup {
+    height: 550px;
+
+  }
+
+  label {
+    width: 250px;
+    padding: 15px;
+    align-content: center;
+  }
+  
+  .login-input-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    
+  } 
+  
+   .login-input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 100% ;
+    box-sizing: border-box;
+    max-width: 400px;
+  } 
+  
+  .login-button {
+    background-color: #007bff;
+    width: 150px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #0062cc;
+  }
+
+  .createAcc-label{
+    text-align: center;
+    text-decoration: underline;
+    color:#003f83;
+  }
+  
+  .show-password-button {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .show-password-button:focus {
+    outline: none;
+  }
+  
+  .show-password-button i {
+    font-size: 20px;
+    color: #ccc;
+  }
+  
+  .show-password-button:hover i {
+    color: #007bff;
+  }
+
+  /* .password-input-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+  } */
+  
+  /* .password-input-container input {
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 40px 10px 10px; 
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box; 
+  }  */
+ 
+  
+  
