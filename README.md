@@ -14,3 +14,19 @@ The user can browse categories and add the products they want to order. Addition
 Admin Entry:
 
 The admin can add, modify, or update products or details within the product.
+
+Entry Screen:
+![image](https://github.com/remanuel1/FullStackProject7/assets/73138064/3f643af5-8b0e-4d9f-96e5-0ef45685dea6)
+
+User Screen:
+![image](https://github.com/remanuel1/FullStackProject7/assets/73138064/e9cabc1a-83f0-48e2-a043-f80c7e85091b)
+![image](https://github.com/remanuel1/FullStackProject7/assets/73138064/44dc0045-311f-4867-af8d-c04b5551ad21)
+
+Cart Screen:
+![image](https://github.com/remanuel1/FullStackProject7/assets/73138064/acbb8934-ee17-49ee-9523-8bb7ab5dacc9)
+
+Admin Screen:
+![image](https://github.com/remanuel1/FullStackProject7/assets/73138064/55786713-6aac-48a3-9588-f9e8faba02ec)
+
+
+
