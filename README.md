@@ -1,4 +1,4 @@
-**final project in Full-Stack web development**
+**Final Project in Full-Stack web development**
 
 In short:
 
